@@ -2,6 +2,8 @@
 
 Sito statico per Daelion Studio, pronto per GitHub Pages.
 
+La struttura è multipagina: `index.html` è la home, mentre `approccio.html`, `progetti.html`, `metodo.html` e `parliamone.html` sono le pagine dedicate.
+
 ## Pubblicazione su GitHub Pages
 
 1. Pubblica il contenuto del repository sul branch `main`.
