@@ -23,4 +23,4 @@ Dopo aver scelto il dominio definitivo:
 - per `www`, crea un record `CNAME` verso `visegarbe.github.io`;
 - in GitHub vai su **Settings → Pages → Custom domain**, inserisci il dominio e abilita **Enforce HTTPS** quando il certificato sarà pronto.
 
-Per attivare anche il dominio personalizzato nel repository, aggiungi un file `CNAME` nella root con una sola riga contenente il dominio scelto, ad esempio `www.esempio.it`.
+Il repository contiene già il file `CNAME` con `daelionstudio.it`.
