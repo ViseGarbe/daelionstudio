@@ -352,6 +352,9 @@ body {
   margin-top: 4px;
   white-space: nowrap;
   text-align: center;
+  max-width: 100%;
+  transform: scaleX(0.84);
+  transform-origin: center;
 }
 .hero-meta {
   position: absolute;
@@ -988,6 +991,11 @@ body {
     width: 82px;
     height: 82px;
     font-size: 0.55rem;
+    overflow: hidden;
+  }
+  .hero-sticker b {
+    font-size: 0.82rem;
+    letter-spacing: -0.06em;
   }
   .orbit-one {
     width: 390px;
