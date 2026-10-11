@@ -328,8 +328,10 @@ body {
   height: 104px;
   right: 2%;
   bottom: 12%;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   transform: rotate(13deg);
   font-family: var(--mono);
@@ -340,10 +342,15 @@ body {
   z-index: 3;
 }
 .hero-sticker b {
+  display: block;
   font-family: Georgia, serif;
-  font-size: 1rem;
+  font-size: 0.98rem;
   color: var(--lime);
   font-weight: 400;
+  line-height: 1;
+  margin-top: 4px;
+  white-space: nowrap;
+  text-align: center;
 }
 .hero-meta {
   position: absolute;
