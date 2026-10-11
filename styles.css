@@ -745,6 +745,34 @@ body {
   position: absolute;
   text-transform: uppercase;
 }
+.preview-dagheno {
+  background: #ef604d;
+  color: #fff2d7;
+}
+.dagheno-top {
+  display: flex;
+  justify-content: space-between;
+  font: 0.67rem var(--mono);
+  text-transform: uppercase;
+}
+.dagheno-top span {
+  font-size: 0.5rem;
+}
+.dagheno-title {
+  font: 500 3.8rem / 0.78 var(--display);
+  letter-spacing: -0.1em;
+  position: absolute;
+  bottom: 72px;
+}
+.dagheno-title i {
+  font: 400 1em Georgia, serif;
+}
+.dagheno-bottom {
+  bottom: 25px;
+  font: 0.67rem var(--mono);
+  position: absolute;
+  text-transform: uppercase;
+}
 .work-note {
   text-align: center;
   color: var(--muted);
