@@ -1226,7 +1226,7 @@ body {
   margin-bottom: 0;
 }
 .contact-page .contact-content h1 em {
-  color: var(--coral);
+  color: var(--paper);
 }
 .contact-extra {
   display: grid;
