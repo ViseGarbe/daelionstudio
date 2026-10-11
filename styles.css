@@ -1249,6 +1249,26 @@ body {
   color: var(--lime);
   font-size: 0.75em;
 }
+.contact-socials {
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 20px;
+  margin-top: 60px;
+  padding-top: 16px;
+}
+.contact-socials .contact-label {
+  flex-basis: 100%;
+}
+.contact-socials a {
+  color: var(--paper);
+  font: 0.7rem var(--mono);
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.contact-socials a:hover {
+  color: var(--lime);
+}
 .active-link {
   color: var(--lime) !important;
 }
@@ -1319,9 +1339,12 @@ body {
   .contact-extra {
     padding-top: 75px;
   }
-  .contact-extra > div + div {
-    margin-top: 55px;
-  }
+.contact-extra > div + div {
+  margin-top: 55px;
+}
+.contact-socials {
+  margin-top: 42px;
+}
 }
 .legal-content {
   padding-bottom: 150px;
