@@ -1225,6 +1225,9 @@ body {
 .contact-page .contact {
   margin-bottom: 0;
 }
+.contact-page .contact-content h1 em {
+  color: var(--coral);
+}
 .contact-extra {
   display: grid;
   grid-template-columns: 1fr 1fr;
