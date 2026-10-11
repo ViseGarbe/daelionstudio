@@ -38,3 +38,18 @@ document.querySelectorAll(".footer-links").forEach((footer) => {
     footer.appendChild(link);
   }
 });
+
+// iOS può trasformare alcuni simboli Unicode in emoji: aggiungiamo la
+// variante testuale per mantenere coerente la direzione artistica del sito.
+const textPresentationSymbols = {
+  "↗": "↗︎",
+  "✳": "✳︎",
+  "↓": "↓︎",
+  "↑": "↑︎",
+};
+const textNodeWalker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+const textNodes = [];
+while (textNodeWalker.nextNode()) textNodes.push(textNodeWalker.currentNode);
+textNodes.forEach((node) => {
+  node.nodeValue = node.nodeValue.replace(/[↗✳↓↑]/g, (symbol) => textPresentationSymbols[symbol]);
+});

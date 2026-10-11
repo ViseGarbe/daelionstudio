@@ -18,6 +18,7 @@ html {
 }
 body {
   margin: 0;
+  padding-top: env(safe-area-inset-top);
   background: var(--ink);
   color: var(--paper);
   font-family: var(--sans);
@@ -382,6 +383,7 @@ body {
   padding: 13px 0;
   animation: marquee 25s linear infinite;
   font-family: var(--display);
+  font-variant-emoji: text;
   font-size: 1.35rem;
   letter-spacing: -0.04em;
 }
