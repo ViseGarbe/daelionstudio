@@ -677,6 +677,45 @@ body {
 .marea-top span {
   font-size: 0.5rem;
 }
+.preview-longato {
+  background: #f4b64f;
+}
+.longato-top {
+  display: flex;
+  justify-content: space-between;
+  font: 0.67rem var(--mono);
+  text-transform: uppercase;
+}
+.longato-top span {
+  font-size: 0.5rem;
+}
+.longato-title {
+  font: 500 3.8rem / 0.78 var(--display);
+  letter-spacing: -0.1em;
+  position: absolute;
+  bottom: 72px;
+}
+.longato-title i {
+  font: 400 1em Georgia, serif;
+}
+.longato-bottom {
+  position: absolute;
+  bottom: 25px;
+  font: 0.67rem var(--mono);
+  text-transform: uppercase;
+}
+.project-external {
+  display: inline-block;
+  color: var(--lime);
+  font: 0.65rem var(--mono);
+  margin-top: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.project-external:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
 .work-note {
   text-align: center;
   color: var(--muted);
