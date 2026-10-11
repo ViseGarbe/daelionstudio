@@ -716,6 +716,35 @@ body {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+.preview-terrazza {
+  background: #d9e4d0;
+}
+.terrazza-top {
+  display: flex;
+  justify-content: space-between;
+  font: 0.67rem var(--mono);
+  text-transform: uppercase;
+}
+.terrazza-top span {
+  font-size: 0.5rem;
+}
+.terrazza-title {
+  color: #293b2c;
+  font: 500 3.8rem / 0.78 var(--display);
+  letter-spacing: -0.1em;
+  position: absolute;
+  bottom: 72px;
+}
+.terrazza-title i {
+  font: 400 1em Georgia, serif;
+}
+.terrazza-bottom {
+  bottom: 25px;
+  color: #293b2c;
+  font: 0.67rem var(--mono);
+  position: absolute;
+  text-transform: uppercase;
+}
 .work-note {
   text-align: center;
   color: var(--muted);
