@@ -13,22 +13,6 @@ document.querySelectorAll(".main-nav a").forEach((link) => {
   });
 });
 
-const filters = document.querySelectorAll(".filter");
-const cards = document.querySelectorAll(".project-card");
-filters.forEach((filter) => {
-  filter.addEventListener("click", () => {
-    filters.forEach((item) => item.classList.remove("active"));
-    filter.classList.add("active");
-    const category = filter.dataset.filter;
-    cards.forEach((card) =>
-      card.classList.toggle(
-        "is-hidden",
-        category !== "all" && card.dataset.category !== category,
-      ),
-    );
-  });
-});
-
 document.querySelectorAll(".footer-links").forEach((footer) => {
   if (!footer.querySelector("[data-privacy-link]")) {
     const link = document.createElement("a");
