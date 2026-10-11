@@ -536,6 +536,16 @@ body {
   margin: 0;
   letter-spacing: -0.04em;
 }
+.project-status {
+  display: inline-block;
+  margin-left: 10px;
+  color: var(--lime);
+  font: 0.58rem var(--mono);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: nowrap;
+}
 .project-info p {
   font-family: var(--mono);
   font-size: 0.61rem;
