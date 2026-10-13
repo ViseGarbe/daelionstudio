@@ -768,8 +768,8 @@ body {
   text-transform: uppercase;
 }
 .preview-forbici {
-  background: #f2c94c;
-  color: #171717;
+  background: var(--blue);
+  color: var(--paper);
 }
 .forbici-top {
   display: flex;
