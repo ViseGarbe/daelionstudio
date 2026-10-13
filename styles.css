@@ -500,7 +500,7 @@ body {
 }
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 34px;
 }
 .project-card:nth-child(1),
@@ -509,7 +509,7 @@ body {
 }
 .project-card:nth-child(2),
 .project-card:nth-child(3) {
-  grid-column: span 1;
+  grid-column: span 2;
 }
 .project-card {
   min-width: 0;
