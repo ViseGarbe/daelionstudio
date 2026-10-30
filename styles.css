@@ -6,9 +6,9 @@
   --blue: #6f7cff;
   --line: rgba(243, 243, 237, 0.2);
   --muted: #a4a6a3;
-  --sans: "DM Sans", Arial, sans-serif;
-  --display: "Space Grotesk", Arial, sans-serif;
-  --mono: "DM Mono", monospace;
+  --sans: Arial, Helvetica, sans-serif;
+  --display: "Arial Black", Arial, Helvetica, sans-serif;
+  --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 * {
   box-sizing: border-box;
