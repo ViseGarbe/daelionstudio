@@ -511,6 +511,9 @@ body {
 .project-card:nth-child(3) {
   grid-column: span 2;
 }
+.project-card:nth-child(5) {
+  grid-column: span 3;
+}
 .project-card {
   min-width: 0;
 }
@@ -798,6 +801,35 @@ body {
   font: 400 1em Georgia, serif;
 }
 .forbici-bottom {
+  bottom: 25px;
+  font: 0.67rem var(--mono);
+  position: absolute;
+  text-transform: uppercase;
+}
+.preview-hendrix {
+  background: #d7edf1;
+  color: #24383b;
+}
+.hendrix-top {
+  display: flex;
+  justify-content: space-between;
+  font: 0.67rem var(--mono);
+  text-transform: uppercase;
+}
+.hendrix-top span {
+  font-size: 0.5rem;
+}
+.hendrix-title {
+  color: #315d65;
+  font: 500 3.8rem / 0.78 var(--display);
+  letter-spacing: -0.1em;
+  position: absolute;
+  bottom: 72px;
+}
+.hendrix-title i {
+  font: 400 1em Georgia, serif;
+}
+.hendrix-bottom {
   bottom: 25px;
   font: 0.67rem var(--mono);
   position: absolute;
